@@ -11,4 +11,8 @@
     "electron-context-menu": "^0.10.0",
     "npm": "^6.4.1"
   }
+  {
+    "author": "FreeYourDesktop",
+  "license": "GPLv3",
+}
 }
