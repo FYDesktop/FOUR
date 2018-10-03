@@ -2,6 +2,8 @@
   "name": "four",
   "version": "1.0.0",
   "main": "main.js",
+  "author": "FreeYourDesktop",
+  "license": "GPLv3",
   "scripts": {
     "start": "electron ."
   },
@@ -11,8 +13,5 @@
     "electron-context-menu": "^0.10.0",
     "npm": "^6.4.1"
   }
-  {
-    "author": "FreeYourDesktop",
-  "license": "GPLv3",
-}
+
 }
