@@ -1,20 +1,37 @@
 {
   "name": "four",
+  "productName": "FOUR",
+  "author": "FreeYourDesktop <ben@freeyourdesktop.com>",
   "version": "1.0.0",
   "main": "main.js",
-  "author": "FreeYourDesktop",
   "license": "GPL-3.0",
-  "repository": 
-    "https://github.com/FYDesktop/FOUR",
-  
+  "repository": "https://github.com/FYDesktop/FOUR",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "build": {
+    "appId": "four",
+    "linux": {
+      "target": [
+        "AppImage",
+        "deb"
+      ]
+    },
+    "extraFiles": "libpepflashplayer.so"
   },
   "dependencies": {
     "about-window": "^1.12.1",
+    "electron": "^3.0.2",
+    "electron-builder": "^20.28.4",
+    "electron-context-menu": "^0.10.0"
+  },
+  "devDependancies": {
     "electron": "^2.0.11",
     "electron-builder": "^20.28.4",
     "electron-context-menu": "^0.10.0",
-    "npm": "^6.4.1"
+    "npm": "^6.4.1",
+    "about-window": "^1.12.1"
   }
 }
