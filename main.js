@@ -2,7 +2,7 @@ const {app, Tray, Menu, MenuItem, globalShortcut, BrowserWindow, remote, electro
 const path = require('path');
 const openAboutWindow = require('about-window').default;
 
-app.commandLine.appendSwitch('ppapi-flash-path', path.join(__dirname, 'libpepflashplayer.so'));
+app.commandLine.appendSwitch('ppapi-flash-path', 'libpepflashplayer.so');
 app.commandLine.appendSwitch('ppapi-flash-version', '29.0.0.113');
 
 const iconPath = path.join(__dirname, '/icons/icon.png');
@@ -36,6 +36,11 @@ app.on('ready', function() {
        //mainWindow.openDevTools();
        mainWindow.once('ready-to-show', () => {
         mainWindow.show() 
+        app.on('window-all-closed', () => { 
+          if (app.listeners('window-all-closed').length === 1 && !option.interactive) { 
+            contextmenu.destroy() 
+          } 
+        })  
       })
 });
 

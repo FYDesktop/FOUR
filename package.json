@@ -29,7 +29,6 @@
     "electron": "^2.0.11",
     "electron-builder": "^20.28.4",
     "electron-context-menu": "^0.10.0",
-    "npm": "^6.4.1",
     "about-window": "^1.12.1"
   }
 }

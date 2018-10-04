@@ -95,9 +95,13 @@ appIcon = new Tray(iconPath);
     { label: 'Quit',
     click:  function(){
       app.isQuiting = true;
-      mainWindow.destroy();
+      
+     {
+      mainWindow.destroy()
+    }
       }
     }
   ]);
   appIcon.setToolTip('All4 - Live,On Demand & Box Sets');
   appIcon.setContextMenu(contextMenu);
+ 
