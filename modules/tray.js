@@ -97,11 +97,12 @@ appIcon = new Tray(iconPath);
       app.isQuiting = true;
       
      {
-      mainWindow.destroy()
+      contextMenu.destroy(); 
+      mainWindow.destroy();
+      app.quit()
     }
       }
     }
   ]);
   appIcon.setToolTip('All4 - Live,On Demand & Box Sets');
   appIcon.setContextMenu(contextMenu);
- 

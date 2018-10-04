@@ -6,8 +6,13 @@ app.commandLine.appendSwitch('ppapi-flash-path', 'libpepflashplayer.so');
 app.commandLine.appendSwitch('ppapi-flash-version', '29.0.0.113');
 
 const iconPath = path.join(__dirname, '/icons/icon.png');
+var contextmenu
 let appIcon = null;
 let win = null;
+
+app.on('window-all-closed', function() {
+  app.quit();
+});
 
 app.on('ready', function() {
         mainWindow = new BrowserWindow({
@@ -25,21 +30,21 @@ app.on('ready', function() {
           event.preventDefault()
               mainWindow.hide();
           });
-        mainWindow.on('closed',function(event){
-                contextmenu.destroy();
-            });  
+
         mainWindow.loadURL(`file://${__dirname}/index.html`)
         mainWindow.webContents.on('did-finish-load', function() {
        });
        require('./modules/tray.js')
        require('./modules/appmenu.js')
        require('./modules/context.js')
+    
       // require('./modules/mediakeys.js')
 
        //mainWindow.openDevTools();
        mainWindow.once('ready-to-show', () => {
         mainWindow.show() 
           }
+          
         ); 
       });
 

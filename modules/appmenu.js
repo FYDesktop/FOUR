@@ -1,4 +1,4 @@
-const {app, Menu, MenuItem, BrowserWindow, remote, electron} = require('electron');
+const {app, Menu, Tray, MenuItem, BrowserWindow, remote, electron} = require('electron');
 const path = require('path');
 const openAboutWindow = require('about-window').default;
 var menu = Menu.buildFromTemplate([
@@ -24,6 +24,8 @@ var menu = Menu.buildFromTemplate([
         click:  function(){
           app.isQuiting = true;
           mainWindow.destroy();
+          
+          
         }
       },
         ]
