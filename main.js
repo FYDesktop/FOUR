@@ -25,6 +25,9 @@ app.on('ready', function() {
           event.preventDefault()
               mainWindow.hide();
           });
+        mainWindow.on('closed',function(event){
+                contextmenu.destroy();
+            });  
         mainWindow.loadURL(`file://${__dirname}/index.html`)
         mainWindow.webContents.on('did-finish-load', function() {
        });
@@ -36,12 +39,8 @@ app.on('ready', function() {
        //mainWindow.openDevTools();
        mainWindow.once('ready-to-show', () => {
         mainWindow.show() 
-        app.on('window-all-closed', () => { 
-          if (app.listeners('window-all-closed').length === 1 && !option.interactive) { 
-            contextmenu.destroy() 
-          } 
-        })  
-      })
-});
+          }
+        ); 
+      });
 
 
