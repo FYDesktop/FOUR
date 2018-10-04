@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "about-window": "^1.12.1",
-    "electron-context-menu": "^0.10.0",
+    "electron-context-menu": "^0.10.0"
   },
   "devDependancies": {
     "electron": "^2.0.11",
