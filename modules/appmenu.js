@@ -1,3 +1,4 @@
+//Main window application menus
 const {app, Menu, Tray, MenuItem, BrowserWindow, remote, electron} = require('electron');
 const path = require('path');
 const openAboutWindow = require('about-window').default;

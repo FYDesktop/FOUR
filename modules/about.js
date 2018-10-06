@@ -1,3 +1,4 @@
+//about window options
 const openAboutWindow = require('about-window').default;
 const path = require('path');
 openAboutWindow({

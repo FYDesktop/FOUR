@@ -1,3 +1,4 @@
+//Appindicator configuration
 const {app, Tray, Menu, menuItem} = require('electron');
 const path = require('path');
 const iconPath = path.join(__dirname, 'icon.png');

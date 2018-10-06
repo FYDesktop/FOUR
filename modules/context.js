@@ -1,3 +1,4 @@
+//context menu (right click config)
 require('electron-context-menu')({
 	prepend: (params, browserWindow) => [{
 	cut: 'Configured Cut',
