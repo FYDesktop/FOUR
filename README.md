@@ -1,22 +1,23 @@
-### Four <img src="https://github.com/FYDesktop/FOUR/blob/master/icons/icon.png" width="60">
+### Four    <img src="https://github.com/FYDesktop/FOUR/blob/master/icons/icon.png" width="128">
 --------
 **[Website](https://www.freeyourdesktop.com/)**
 
 A Linux Electron App to access the UK(Only) Channel 4 website. Channel 4 provide players for every other platform Win/Mac/Xbox/Android/IOS
 
 Provides Live streams for:
-Channel 4
-E4
-More 4
-Film 4
-4 Seven
-4 Music
+- Channel 4
+- E4
+- More 4
+- Film 4
+- 4 Seven
+- 4 Music
 
 And access to catch-up services and channel 4 series boxsets.
-Features:
-Tray Icon with minimise to tray and application menu provided
-Context menu, with cut, copy, paste: (check inspect element in release)
-The player can be undocked from the main window (Not live streams) to make a seperate mini player. Menu selections from here close the player and open the selection in the main window 
+
+## Features:
+- Tray Icon with minimise to tray and application menu provided
+- Context menu, with cut, copy, paste: (check inspect element in release)
+- The player can be undocked from the main window (Not live streams) to make a seperate mini player. Menu selections from here close the player and open the selection in the main window 
 
 
 Uses libpepflashplayer.so from chromeOS, taken from https://github.com/TomBZombie/Linux-Watch-Flash-DRM
@@ -59,3 +60,10 @@ Player Window resizing, title bar removal and fullscreen key control.
 Clean up Icons
 Add Description into package.json
 Package for appimage, deb, (snap?)
+
+## Disclaimer
+
+Four is a third party application and is not affiliated with or in control of content it provides. All content is copyright of Channel 4 Television Corporation
+
+## License
+GPL V3
