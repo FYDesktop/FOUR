@@ -1,4 +1,4 @@
-### Four <img src="icon/icon.png" width="60">
+### Four <img src="https://github.com/FYDesktop/FOUR/blob/master/icons/icon.png" width="60">
 --------
 **[Website](https://www.freeyourdesktop.com/)**
 
