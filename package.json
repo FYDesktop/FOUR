@@ -21,7 +21,8 @@
       "target": [
         "AppImage",
         "deb"
-      ]
+      ],
+      "publish": ["github"]
     },
     "extraFiles": "libpepflashplayer.so"
   },
