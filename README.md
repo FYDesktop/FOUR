@@ -1,6 +1,7 @@
-###Four <img src="icon/icon.png" width="60">
+### Four <img src="icon/icon.png" width="60">
 --------
 **[Website](https://www.freeyourdesktop.com/)**
+
 A Linux Electron App to access the UK(Only) Channel 4 website. Channel 4 provide players for every other platform Win/Mac/Xbox/Android/IOS
 
 Provides Live streams for:
