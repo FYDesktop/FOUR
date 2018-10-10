@@ -10,7 +10,9 @@
   "scripts": {
     "start": "electron .",
     "pack": "electron-builder --dir",
-    "dist": "electron-builder"
+    "dist": "electron-builder",
+    "postinstall": "install-app-deps",
+    "clean": "rm -rf dist/"
   },
   "build": {
     "appId": "four",

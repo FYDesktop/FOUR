@@ -1,0 +1,11 @@
+directories:
+  output: dist
+  buildResources: build
+appId: four
+linux:
+  category: AudioVideo
+  target:
+    - AppImage
+    - deb
+extraFiles: libpepflashplayer.so
+electronVersion: 3.0.3
