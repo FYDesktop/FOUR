@@ -16,9 +16,11 @@ Provides Live streams for:
 
 And access to catch-up services and channel 4 series boxsets.
 
+<img src="https://github.com/FYDesktop/FOUR/screenshot.jpg" width="500" height="500">
+
 ## Features:
 - Tray Icon with minimise to tray and application menu provided
-- Context menu, with cut, copy, paste: (check inspect element in release)
+- Context menu, with cut, copy, paste: 
 - The player can be undocked from the main window (Not live streams) to make a seperate mini player. Menu selections from here close the player and open the selection in the main window 
 
 
@@ -26,6 +28,12 @@ Uses libpepflashplayer.so from chromeOS, taken from https://github.com/TomBZombi
 This enables Linux to run flash DRM content (dirty hack, but the only way at the moment)
 
 This is my first ever attempt at developing a full application (Small shell & python scripts excluded)
+
+## How to install
+
+- [**.Appimage**](https://github.com/FYDesktop/FOUR/blob/master/dist/four-1.0.0-x86_64.AppImage), download the and set as executable, and run.
+- [**.DEB**](https://github.com/FYDesktop/FOUR/blob/master/dist/four_1.0.0_amd64.deb), Download and install with software center, GDebi or by opening a terminal and typing:
+'sudo dpkg -i four_1.0.0_amd64.deb'
 
 ### Keyboard shortcuts
 
@@ -56,10 +64,10 @@ Quit Application       | <kbd>Ctrl</kbd> <kbd>Q</kbd>
 ## Todo
 
 - Check internet connectivity.
-- Media Player Controls - (focus on flash tab keypress space then lose focus) accessability
+- Media Player Controls / accessability
 - Mpris Intergration.
 - Player Window resizing, title bar removal and fullscreen key control.
-- Package for appimage, deb, maybe snap.
+- Package Snap
 
 ## Disclaimer
 
