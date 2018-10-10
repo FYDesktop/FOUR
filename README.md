@@ -16,7 +16,7 @@ Provides Live streams for:
 
 And access to catch-up services and channel 4 series boxsets.
 
-<img src="https://github.com/FYDesktop/FOUR/screenshot.jpg" width="500" height="500">
+<img src="https://github.com/FYDesktop/FOUR/blob/master/screenshot.jpg" width="500" height="500">
 
 ## Features:
 - Tray Icon with minimise to tray and application menu provided
