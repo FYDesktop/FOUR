@@ -18,7 +18,7 @@
       "category": "AudioVideo",
       "target": [
         "AppImage",
-        "deb",
+        "deb"
       ]
     },
     "extraFiles": "libpepflashplayer.so"
