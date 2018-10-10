@@ -31,9 +31,10 @@ This is my first ever attempt at developing a full application (Small shell & py
 
 ## How to install
 
-- [**.Appimage**](https://github.com/FYDesktop/FOUR/blob/master/dist/four-1.0.0-x86_64.AppImage), download the and set as executable, and run.
-- [**.DEB**](https://github.com/FYDesktop/FOUR/blob/master/dist/four_1.0.0_amd64.deb), Download and install with software center, GDebi or by opening a terminal and typing:
+- [**.Appimage**](https://github.com/FYDesktop/FOUR/releases/download/1.0.0/four-1.0.0-x86_64.AppImage), download the and set as executable, and run.
+- [**.DEB**](https://github.com/FYDesktop/FOUR/releases/download/1.0.0/four_1.0.0_amd64.deb), Download and install with software center, GDebi or by opening a terminal and typing:
 'sudo dpkg -i four_1.0.0_amd64.deb'
+- [**.Zip**](https://github.com/FYDesktop/FOUR/releases/download/1.0.0/four.zip), Unzip the file and run the four binary
 
 ### Keyboard shortcuts
 

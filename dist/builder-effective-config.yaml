@@ -7,5 +7,7 @@ linux:
   target:
     - AppImage
     - deb
+  publish:
+    - github
 extraFiles: libpepflashplayer.so
 electronVersion: 3.0.3

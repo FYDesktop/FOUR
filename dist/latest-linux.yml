@@ -1,9 +1,9 @@
 version: 1.0.0
 files:
   - url: four-1.0.0-x86_64.AppImage
-    sha512: QY4RfQNLHn0s59swKKTOd8pFyXIkApnd3crhXw7OzrEHMCMCl9JwzPHs12JslvhxVjeA6GA0ju5zAXHFn5AySA==
-    size: 70232120
-    blockMapSize: 74108
+    sha512: 0Up4c1oY+nxmqcfObZ9CJ4uZLpmsNmDK+3+mTpjatNPSlR4vWEW1Wtwf120R3M2uUA+f/irM4tKS0S0ubK32Vw==
+    size: 70396307
+    blockMapSize: 74455
 path: four-1.0.0-x86_64.AppImage
-sha512: QY4RfQNLHn0s59swKKTOd8pFyXIkApnd3crhXw7OzrEHMCMCl9JwzPHs12JslvhxVjeA6GA0ju5zAXHFn5AySA==
-releaseDate: '2018-10-10T22:12:49.565Z'
+sha512: 0Up4c1oY+nxmqcfObZ9CJ4uZLpmsNmDK+3+mTpjatNPSlR4vWEW1Wtwf120R3M2uUA+f/irM4tKS0S0ubK32Vw==
+releaseDate: '2018-10-10T22:33:10.496Z'
