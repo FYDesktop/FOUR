@@ -1,6 +1,6 @@
 <img src="https://github.com/FYDesktop/FOUR/blob/master/icons/icon.png" width="128">
 
-##### Four  
+## Four  
 --------
 **[Website](https://www.freeyourdesktop.com/)**
 
@@ -59,8 +59,6 @@ Quit Application       | <kbd>Ctrl</kbd> <kbd>Q</kbd>
 - Media Player Controls - (focus on flash tab keypress space then lose focus) accessability
 - Mpris Intergration.
 - Player Window resizing, title bar removal and fullscreen key control.
-- Clean up Icons
-- Add Description into package.json
 - Package for appimage, deb, maybe snap.
 
 ## Disclaimer

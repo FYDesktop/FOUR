@@ -3,6 +3,7 @@
   "productName": "FOUR",
   "author": "FreeYourDesktop <ben@freeyourdesktop.com>",
   "version": "1.0.0",
+  "description": "Electron App for All4/Channel4 (UK)",
   "main": "main.js",
   "license": "GPL-3.0",
   "repository": "https://github.com/FYDesktop/FOUR",
@@ -13,17 +14,20 @@
   },
   "build": {
     "appId": "four",
+    "catagory": "AudioVideo",
     "linux": {
       "target": [
         "AppImage",
-        "deb"
+        "deb",
+        "rpm"
       ]
     },
     "extraFiles": "libpepflashplayer.so"
   },
   "dependencies": {
     "about-window": "^1.12.1",
-    "electron-context-menu": "^0.10.0"
+    "electron-context-menu": "^0.10.0",
+    "npm": "^6.4.1"
   },
   "devDependancies": {
     "electron": "^2.0.11",
