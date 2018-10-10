@@ -46,20 +46,20 @@ Quit Application       | <kbd>Ctrl</kbd> <kbd>Q</kbd>
  
 ## Known Bugs
 
--On clicking play a notice sometimes appears about ad blockers, a 10 second countdown begins and then you have to click play again.
--On clicking flash fullscreen the player opens in it's own maximized window with a blank title bar. 4 Music live is the exception as it is served from another provider.
--when the Application start the channel4 homepage has a gap between the window menu and the webpage menu due to a full background advert which doesn't display,dissapears when switching pages.
--Flash player cannot be resized.
+- On clicking play a notice sometimes appears about ad blockers, a 10 second countdown begins and then you have to click play again.
+- On clicking flash fullscreen the player opens in it's own maximized window with a blank title bar. 4 Music live is the exception as it is served from another provider.
+- When the Application start the channel4 homepage has a gap between the window menu and the webpage menu due to a full background advert which doesn't display,dissapears when switching pages.
+- Flash player cannot be resized.
 
-##Todo
+## Todo
 
-Check internet connectivity.
-Media Player Controls - (focus on flash tab keypress space then lose focus) accessability
-Mpris Intergration.
-Player Window resizing, title bar removal and fullscreen key control.
-Clean up Icons
-Add Description into package.json
-Package for appimage, deb, (snap?)
+- Check internet connectivity.
+- Media Player Controls - (focus on flash tab keypress space then lose focus) accessability
+- Mpris Intergration.
+- Player Window resizing, title bar removal and fullscreen key control.
+- Clean up Icons
+- Add Description into package.json
+- Package for appimage, deb, maybe snap.
 
 ## Disclaimer
 
