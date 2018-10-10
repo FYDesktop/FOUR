@@ -26,6 +26,8 @@
   },
   "dependencies": {
     "about-window": "^1.12.1",
+    "electron": "^3.0.3",
+    "electron-builder": "^20.28.4",
     "electron-context-menu": "^0.10.0",
     "npm": "^6.4.1"
   },
