@@ -1,6 +1,6 @@
 <img src="https://github.com/FYDesktop/FOUR/blob/master/icons/icon.png" width="128">
---------
-### Note - Channel 4 Now seem to have changed to a html5 player (finally) so All4 is available in Chrome. This app still works but on playing a video it will ask you to switch to flash.
+
+## Note - Channel 4 Now seem to have changed to a html5 player (finally) so All4 is available in Chrome. This app still works but on playing a video it will ask you to switch to flash.
 
 ## Four  
 --------
